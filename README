@@ -1,0 +1,12 @@
+HOW TO RUN the app?
+go mod download
+go run main.go
+
+HOW TO RUN the app in k8s?
+minikube start
+minikube dashboard
+kubectl apply -f deployment.yaml
+minikube tunnel (makes the services running in the cluster accessible from the host machine's network)
+kubectl apply -f service.yaml
+
+
