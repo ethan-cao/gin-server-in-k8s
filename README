@@ -1,6 +1,9 @@
+Simple Golang http server, containerized and deployed to k8s
+
+
 HOW TO RUN the app?
 go mod download
-go run main.go
+go run cmd/main.go
 
 HOW TO RUN the app in k8s?
 minikube start
