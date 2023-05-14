@@ -12,4 +12,3 @@ kubectl apply -f deployment.yaml
 minikube tunnel (makes the services running in the cluster accessible from the host machine's network)
 kubectl apply -f service.yaml
 
-
